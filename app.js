@@ -9,7 +9,7 @@ app.use(cors());
 
 app.get("/api/neon", async (req, res) => {
   if (!req.query.int) return res.status(404).json({ Erreur: "Intention vide" });
-  console.log(`Intention recu : ${req.query.int}`);
+  console.log(`Intention recu`);
   const intent = req.query.int;
   const d = await UI(intent);
   res.json({ code: d });
