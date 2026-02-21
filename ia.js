@@ -1,6 +1,6 @@
 import { Mistral } from "@mistralai/mistralai";
 
-const k = "W7ND2gfrHNxwNhbJgKXe1JJrlQOGvPsK";
+const k = "G0frKzgx0QzGv9l4EKnUnzJLDW8LObZh";
 
 const client = new Mistral({ apiKey: k });
 const prompt = `
